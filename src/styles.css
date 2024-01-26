@@ -1,1 +1,60 @@
+hero {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 60px 60px 100px;
+}
 
+header {
+  padding: 35px 45px;
+}
+
+h1 {
+  font-size: 56px;
+  color: #212529;
+  font-weight: 400;
+  font-family: "DM Serif Text", serif;
+  line-height: 64px;
+  letter-spacing: 1.68px;
+}
+
+p {
+  color: #212529;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.text {
+  display: block;
+  flex: 1;
+}
+
+.description-text {
+  display: block;
+  margin-bottom: 3rem;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 200px;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 2fr;
+}
+
+.img-responsive {
+  display: block;
+  width: 1190px;
+  height: 750px;
+}
+
+.see-pricing {
+  background-color: black;
+  color: #fff;
+  font-family: "DM Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}

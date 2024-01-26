@@ -3,15 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/styles.css" />
     <title>Fresh Prep Landing Page</title>
   </head>
   <body>
-    <h1>The Fresh Prep Difference</h1>
-    <p>
-      Get quality ingredients to make world- class recipes delivered weekly to
-      your door. As low as $10.99 per serving.
-    </p>
-    <button>See Pricing</button>
+    <header>
+      <img src="src/images/fresh-prep-logo.svg.svg" alt="fresh-prep-logo" />
+    </header>
+    <hero class="grid grid-2-columns">
+      <div class="hero-text">
+        <div class="description-text">
+          <h1>The Fresh Prep Difference</h1>
+          <p>
+            Get quality ingredients to make world- class recipes delivered
+            weekly to your door. As low as <strong>$10.99 per serving.</strong>
+          </p>
+        </div>
+        <button class="see-pricing">See Pricing</button>
+        <br />
+        <p>No commitment and cancel anytime.</p>
+        <br />
+        <a href="#">SEE THIS WEEK'S MENU</a>
+      </div>
+      <div>
+        <img
+          class="img-responsive"
+          src="src/images/herophoto.png"
+          alt="herophoto"
+        />
+      </div>
+    </hero>
   </body>
 </html>
